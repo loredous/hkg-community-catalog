@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "generated": "2026-10-31T23:00:54Z",
+  "generated": "2026-10-31T23:05:49Z",
   "id": "community",
   "key": "0e1bdd6896e8de2f5c9b6034b80f257b48f96dd534a848d850df3761b33e89ec",
   "name": "HKG Community Catalog",
@@ -122,6 +122,24 @@
       "size": 39169,
       "version": "1.2",
       "zip": "https://github.com/zpoon/gen5w-BatteryWatchdog/releases/download/v0.5.0/battery.watchdog.zip"
+    },
+    {
+      "author": "loredous",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          }
+        ]
+      },
+      "description": "Adds a climate page to the right-side split screen: one-tap seat heating and cooling, the outside temperature, and preset buttons that apply several climate settings at once.",
+      "homepage": "https://github.com/loredous/hkg-climate-page",
+      "id": "hkg.climate.page",
+      "name": "HKG Climate Page",
+      "sha256": "4dceac8072aac838b618652b7dff0022bb47f872e24c9bc73c53f6045c58dcb6",
+      "size": 317543,
+      "version": "1.0.0",
+      "zip": "https://github.com/loredous/hkg-climate-page/releases/download/v1.0.0/hkg.climate.page.zip"
     }
   ],
   "publisher": "loredous, with the Gen5W NEMESIS community"
