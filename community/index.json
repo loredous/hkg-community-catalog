@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "generated": "2026-10-31T23:00:54Z",
+  "id": "community",
+  "key": "0e1bdd6896e8de2f5c9b6034b80f257b48f96dd534a848d850df3761b33e89ec",
+  "name": "HKG Community Catalog",
+  "packages": [
+    {
+      "author": "KramerTech",
+      "description": "Port of SmartTube, a YouTube client, for the head unit. Works only in Park. Needs the media.codecs package (2.0 or newer) from KramerTech/gen5-codec-patch installed first.",
+      "homepage": "https://github.com/KramerTech/gen5-SmartTube",
+      "id": "smarttube",
+      "name": "SmartTube",
+      "sha256": "16a2fbe51575c371b87a8748776d82e3bd16119b52eb4ba650e860a6eb5475fd",
+      "size": 22151559,
+      "version": "32.68-gen5w.5",
+      "zip": "https://github.com/KramerTech/gen5-SmartTube/releases/download/v32.68-gen5w.5/smarttube-32.68-gen5w.5.zip"
+    },
+    {
+      "author": "KramerTech",
+      "description": "Records the backup camera to a USB drive in the head unit and adds a player app. Not for cars with a 360-degree camera (the installer refuses). Restart the head unit after installing. Experimental.",
+      "homepage": "https://github.com/KramerTech/gen5-RearDashcam",
+      "id": "dashcam",
+      "name": "Rear Dashcam",
+      "sha256": "ecc8eda3aba75acf7caba37ac269d8844e51a4280939579f45e5309010f5e85c",
+      "size": 625228,
+      "version": "0.15.6",
+      "zip": "https://github.com/KramerTech/gen5-RearDashcam/releases/download/v0.15.6/dashcam-0.15.6.zip"
+    },
+    {
+      "author": "armandodollia",
+      "description": "Dismisses the startup confirmation screen that normally needs a tap before the infotainment can be used. This version has not been tested on a car yet.",
+      "homepage": "https://github.com/armandodollia/nemesis-package-builds",
+      "id": "local.hkmc.factory82",
+      "name": "HKMC Factory 82 - Boot-Ready Wake Monitor",
+      "sha256": "c9d12d19fbccbcfd4d0c0e537ae692dfa0a8eba82ae6d21d05181627b1e810bb",
+      "size": 9372,
+      "version": "4.2",
+      "zip": "https://github.com/armandodollia/nemesis-package-builds/releases/download/v4.2/hkmc.factory82.bootready-v4.2.nemesis.zip"
+    },
+    {
+      "author": "dibble9012",
+      "description": "Reverses the steering-wheel track buttons. Made for the Kia EV6 (tested on a 2023 EV6 GT-Line, US). Needs a full head unit restart (hold the volume knob about 10 seconds).",
+      "homepage": "https://github.com/dibble9012/hkmc-track-button-swap",
+      "id": "hkmc.track-button-swap",
+      "name": "HKMC Track Button Swap",
+      "sha256": "b6590c9ff3c181685705257623c6923ea7d1f99dcf2b826ecae642ca5391d12a",
+      "size": 12301,
+      "version": "1.0",
+      "zip": "https://raw.githubusercontent.com/dibble9012/hkmc-track-button-swap/d273536d3eaa634bfd7e14ff06f4280c730e62f6/hkmc-track-button-swap-v1.0.nemesis.zip"
+    },
+    {
+      "author": "dibble9012",
+      "description": "Brings Apple CarPlay to the front as soon as it connects, wired or wireless. Tested on a 2025 Kia EV6 GT-Line (US).",
+      "homepage": "https://github.com/dibble9012/hkmc-carplay-auto-display",
+      "id": "hkmc.carplay-auto-display",
+      "name": "HKMC CarPlay Auto-Display",
+      "sha256": "1ddf32e6261568c315c2c6f061f03ac41caadfd199076300cf51ef449f8b0a1c",
+      "size": 7596,
+      "version": "1.0",
+      "zip": "https://raw.githubusercontent.com/dibble9012/hkmc-carplay-auto-display/6bf1b541a7a7ecc990d3d4e1a065a69f56f97048/hkmc.carplay-auto-display-v1.0.nemesis.zip"
+    },
+    {
+      "author": "paytondevs",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          },
+          {
+            "build": "NEEV*.USA.*260903"
+          },
+          {
+            "build": "CVEV.USA.*260507"
+          }
+        ]
+      },
+      "description": "Launchpad: a manual battery preconditioning button and other shortcuts, opened by holding the TUNE knob. Restart the head unit after installing. See the project's compatibility chart.",
+      "homepage": "https://github.com/paytondevs/gen5w-preconditioning",
+      "id": "paytondev.launchpad",
+      "name": "Launchpad",
+      "sha256": "a77dd1fa3de65445aa065d86643be48b4f2b971b7be7d3cef72facfd1ae3278e",
+      "size": 99713,
+      "version": "1.5.0",
+      "zip": "https://github.com/paytondevs/gen5w-preconditioning/releases/download/v1.5.0/paytondev.launchpad.zip"
+    },
+    {
+      "author": "eclipseempire",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          }
+        ]
+      },
+      "description": "On every start, turns on the heated steering wheel and seats when it's cold outside. Set the app's temperature unit to match your cluster (F or C).",
+      "homepage": "https://github.com/eclipseempire/hkmc-coldstart-heat",
+      "id": "coldstart.heat",
+      "name": "Cold-start Heat",
+      "sha256": "4f01f3fd48bd4f1cecafc1684177a957e87977b97886b6ecc226b5c954a048d4",
+      "size": 12178,
+      "version": "1.3.0",
+      "zip": "https://github.com/eclipseempire/hkmc-coldstart-heat/releases/download/v1.3.0/coldstart.heat.zip"
+    },
+    {
+      "author": "zpoon",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          },
+          {
+            "build": "NEEV*.USA.*260903"
+          }
+        ]
+      },
+      "description": "Watches the 12V battery and warns on the car's screen before a weak battery or a charging problem. Read-only. Pauses itself on firmware it doesn't know.",
+      "homepage": "https://github.com/zpoon/gen5w-BatteryWatchdog",
+      "id": "battery.watchdog",
+      "name": "Battery Watchdog",
+      "sha256": "d03aec2621bfc2510076c17f8a1872f75583776a510f800a239e7690dfec6b9b",
+      "size": 39169,
+      "version": "1.2",
+      "zip": "https://github.com/zpoon/gen5w-BatteryWatchdog/releases/download/v0.5.0/battery.watchdog.zip"
+    }
+  ],
+  "publisher": "loredous, with the Gen5W NEMESIS community"
+}

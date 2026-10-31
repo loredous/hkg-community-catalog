@@ -1,0 +1,111 @@
+{
+  "catalog": {
+    "id": "community",
+    "name": "HKG Community Catalog",
+    "publisher": "loredous, with the Gen5W NEMESIS community"
+  },
+  "packages": [
+    {
+      "id": "smarttube",
+      "repo": "KramerTech/gen5-SmartTube",
+      "asset": "smarttube-*.zip",
+      "not": "*-usb.zip",
+      "description": "Port of SmartTube, a YouTube client, for the head unit. Works only in Park. Needs the media.codecs package (2.0 or newer) from KramerTech/gen5-codec-patch installed first.",
+      "author": "KramerTech"
+    },
+    {
+      "id": "dashcam",
+      "repo": "KramerTech/gen5-RearDashcam",
+      "asset": "dashcam-*.zip",
+      "not": "*-usb.zip",
+      "description": "Records the backup camera to a USB drive in the head unit and adds a player app. Not for cars with a 360-degree camera (the installer refuses). Restart the head unit after installing. Experimental.",
+      "author": "KramerTech"
+    },
+    {
+      "id": "local.hkmc.factory82",
+      "repo": "armandodollia/nemesis-package-builds",
+      "asset": "*.nemesis.zip",
+      "description": "Dismisses the startup confirmation screen that normally needs a tap before the infotainment can be used. This version has not been tested on a car yet.",
+      "author": "armandodollia"
+    },
+    {
+      "id": "hkmc.track-button-swap",
+      "repo": "dibble9012/hkmc-track-button-swap",
+      "path": "hkmc-track-button-swap-v1.0.nemesis.zip",
+      "description": "Reverses the steering-wheel track buttons. Made for the Kia EV6 (tested on a 2023 EV6 GT-Line, US). Needs a full head unit restart (hold the volume knob about 10 seconds).",
+      "author": "dibble9012"
+    },
+    {
+      "id": "hkmc.carplay-auto-display",
+      "repo": "dibble9012/hkmc-carplay-auto-display",
+      "path": "hkmc.carplay-auto-display-v1.0.nemesis.zip",
+      "description": "Brings Apple CarPlay to the front as soon as it connects, wired or wireless. Tested on a 2025 Kia EV6 GT-Line (US).",
+      "author": "dibble9012"
+    },
+    {
+      "id": "paytondev.launchpad",
+      "repo": "paytondevs/gen5w-preconditioning",
+      "asset": "paytondev.launchpad.zip",
+      "description": "Launchpad: a manual battery preconditioning button and other shortcuts, opened by holding the TUNE knob. Restart the head unit after installing. See the project's compatibility chart.",
+      "author": "paytondevs",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          },
+          {
+            "build": "NEEV*.USA.*260903"
+          },
+          {
+            "build": "CVEV.USA.*260507"
+          }
+        ]
+      }
+    },
+    {
+      "id": "coldstart.heat",
+      "repo": "eclipseempire/hkmc-coldstart-heat",
+      "asset": "coldstart.heat.zip",
+      "description": "On every start, turns on the heated steering wheel and seats when it's cold outside. Set the app's temperature unit to match your cluster (F or C).",
+      "author": "eclipseempire",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          }
+        ]
+      }
+    },
+    {
+      "id": "battery.watchdog",
+      "repo": "zpoon/gen5w-BatteryWatchdog",
+      "asset": "battery.watchdog.zip",
+      "description": "Watches the 12V battery and warns on the car's screen before a weak battery or a charging problem. Read-only. Pauses itself on firmware it doesn't know.",
+      "author": "zpoon",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          },
+          {
+            "build": "NEEV*.USA.*260903"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkg.climate.page",
+      "repo": "loredous/hkg-climate-page",
+      "asset": "hkg.climate.page.zip",
+      "description": "Adds a climate page to the right-side split screen: one-tap seat heating and cooling, the outside temperature, and preset buttons that apply several climate settings at once.",
+      "author": "loredous",
+      "compatibility": {
+        "works_on": [
+          {
+            "build": "NEEV*.USA.*260507"
+          }
+        ]
+      }
+    }
+  ]
+}
